@@ -24,8 +24,8 @@ Each program is focused on helping me understand and practice a specific concept
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cpp-practice-lab.git
-cd cpp-practice-lab
+git clone https://github.com/Anshita-C/Learning_CPP.git
+cd Learning_CPP
 ```
 
 Compile any program with g++:
@@ -34,11 +34,6 @@ Compile any program with g++:
 g++ path/to/program.cpp -o program
 ```
 
-For example:
-
-```bash
-g++ 02-control-flow/fibonacci_series.cpp -o fibonacci
-```
 
 Run it:
 
