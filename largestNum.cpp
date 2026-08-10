@@ -8,10 +8,14 @@ int main(){
     int largest=INT_MIN; //= -infinity
 
 
+    // for(int i=0; i<size; i++){
+    //     if(nums[i]>largest){
+    //         largest = nums[i];
+    //     }
+    // }
+
     for(int i=0; i<size; i++){
-        if(nums[i]>largest){
-            largest = nums[i];
-        }
+        largest = max(nums[i], largest);
     }
     cout << "largest = " << largest << endl;
 
