@@ -3,8 +3,8 @@ using namespace std;
 
 int main(){
 
-     int nums[] = {12, 1, -24, 34, 27};
-    int size = 6;
+    int nums[] = {12, 1, -24, 34, 27};
+    int size = 5;
     int largest=INT_MIN; //= -infinity
 
 
